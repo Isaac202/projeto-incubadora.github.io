@@ -102,11 +102,12 @@ h4.span1{
 
 p{
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     color: rgb(0, 0, 0);
-    width: 50%;
+    width: 90%;
     margin: 0 auto;
     padding: 5%;
+    letter-spacing: 2px;
 }
 
 
