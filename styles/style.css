@@ -93,7 +93,6 @@ h4.span1{
 .meio2{
     width: 100%;
     background-color:rgb(255, 255, 255);
-    opacity: 0.5;
     margin-top: 0;
 
 }
@@ -109,7 +108,7 @@ p.desc{
     letter-spacing: 2px;
 }
 
-p{
+p.fdesc{
     text-align: center;
     font-size: 20px;
     color: rgb(0, 0, 0);
@@ -119,23 +118,35 @@ p{
 
 .information{
     width: 100%;
-  
 
-    
 }
 h1.info{
     text-align: center;
-    margin-top: 12%;
-    color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    background-color: white;
     position: relative;
     font-size: 40px;
+    width: 80%;
+    margin: 0 auto;
 }
 h4.info4{
+    background-color: white;
     text-align: center;
-    color:black;
-    margin-top: 5%;
+    color:rgb(0, 0, 0);
     font-size: 25px;
     font-weight: bolder;
+    border-radius: 5%;
+    margin-top: 2%;
+}
+
+.informe{
+    width: 100%;
+    background-color: white;
+    padding: 2%;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 4%;
+
 }
 
 
@@ -160,5 +171,42 @@ img.foto{
     height: 400px;
     text-align: center;
     margin: 0 auto;
+}
+
+.equipe{
+    background-color: white;
+    padding: 3%;
+}
+
+h1.equipe{
+    font-size: 34px;
+    text-align: center;
+    margin-top: 5%;
+}
+h5.equipe{
+    font-size: 24px;
+    text-align: center;
+}
+
+.perfils{
+    display: flex;
+}
+
+img.fp{
+    width: 150px;
+    border-radius: 90px;
+    background-color: rgb(171, 179, 187);
+}
+
+.p1,.p2,.p3{
+    margin: 0 auto;
+    display: flex;
+    width: 30%;
+}
+
+.d_c{
+    margin:0 auto;
+    padding-left: 10%;
+    margin-top: 5%;
 }
 
