@@ -93,7 +93,6 @@ h4.span1{
 .meio2{
     width: 100%;
     background-color:rgb(255, 255, 255);
-    opacity: 0.5;
     margin-top: 0;
 
 }
@@ -119,23 +118,32 @@ p{
 
 .information{
     width: 100%;
-  
 
-    
 }
 h1.info{
     text-align: center;
-    margin-top: 12%;
-    color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    background-color: white;
     position: relative;
     font-size: 40px;
+    width: 80%;
+    margin: 0 auto;
 }
 h4.info4{
+    background-color: white;
     text-align: center;
-    color: black;
-    margin-top: 5%;
-    font-size: 20px;
+    color:rgb(0, 0, 0);
+    font-size: 25px;
     font-weight: bolder;
+    border-radius: 5%;
+    margin-top: 2%;
+}
+
+.informe{
+    width: 100%;
+    background-color: white;
+    padding: 2%;
+    margin-top: 4%;
 }
 
 
