@@ -26,7 +26,7 @@ header{
     background-color: white;
     max-width: 1280;
     width: 100%;
-    position: relative;
+    position: absolute;
 }
 
 
@@ -62,10 +62,11 @@ nav.menu-desktop a{
     position: fixed;
 }
 
-.body{
+section.body{
     width: 100%;
-   position: absolute;
-   
+    max-width: 1280px; 
+    margin: 0 auto;
+    padding: 0 2%;  
 }
 
 .meio1{
