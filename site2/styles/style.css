@@ -217,10 +217,10 @@ img.fp{
 @media only screen and (max-width:700px){
     .description{
         display: inline-block;
-    };
+    }
     .p1,.p2,.p3{
         display: inline-block;
-    };
+    }
     .perfils{
         display: inline-block;
     }
