@@ -157,9 +157,11 @@ h4.info4{
 
 
 .s_a,.n_d,.e_l{
+    margin: 0 auto;
+    text-align: center;
     padding: 2%;
     background-color:rgb(255, 255, 255);
-    width: 70%;
+    margin: 1 1 1 1;
     margin: 2%;
 }
 
@@ -211,6 +213,13 @@ img.fp{
     };
     .s_a,.n_d,.e_l{
         margin: 2% auto;
+    }
+    img.foto{
+        width: 50%;
+    }
+    .information{
+        width: 80%;
+        margin: auto;
     }
 
 }
