@@ -17,13 +17,14 @@ header{
     padding: 2%;
     background-color: rgb(255, 255, 255);
     position: relative;
+    margin:0 auto;
+    width: 112%;
 }
 
 
 /* Classes auxiliares */
 .logo{
     align-items: flex-start;
-    background-color: rgb(255, 255, 255);
 }
 .menu{
     align-items: flex-end;
@@ -31,6 +32,7 @@ header{
 }
 .cent{
     padding-right: 8%;
+    position: relative;
 }
 .img-paralax{
     background-image: url('../imagens/3.jpg');
@@ -123,6 +125,7 @@ h4.info4{
     padding: 2%;
     margin: 0 auto;
     margin-top: 4%;
+    opacity: 0.8;
 
 }
 
@@ -135,8 +138,10 @@ h4.info4{
 
 .s_a,.n_d,.e_l{
     padding: 2%;
-    background-color:rgb(255, 255, 255);
+    background-color:rgb(219, 182, 88);
     margin: 2%;
+    border-radius: 2%;
+    opacity: 0.8;
 }
 
 img.foto{
@@ -149,6 +154,7 @@ img.foto{
     background-color: white;
     padding: 3%;
     position: relative;
+    opacity: 0.9;
 }
 
 h1.equipe{
@@ -178,5 +184,15 @@ img.fp{
 .d_c{
     margin-top: 5%;
     padding: 5%;
+    background-color: rgb(255, 255, 255);
 
+}
+
+@media screen and (max-width: 768px){
+    .cent{
+        padding-right: 15%;
+    }
+    h1.bvinda{
+        font-size: 60px;
+    }
 }
