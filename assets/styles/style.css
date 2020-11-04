@@ -9,8 +9,8 @@ html,body{
 }
 /* Classes auxiliares */
 .box{
-    margin: 0 auto;
     width: 100%;
+    position: relative;
 }
 
 header{
@@ -40,6 +40,8 @@ header{
     position: fixed;
     background-size: 100% 100%;
 }
+
+
 
 
 
@@ -94,7 +96,6 @@ p.fdesc{
 
 .information{
     width: 100%;
-    position: relative;
 
 }
 h1.info{
