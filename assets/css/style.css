@@ -142,11 +142,7 @@ h4.info4{
     opacity: 0.8;
 }
 
-img.foto{
-    width: 80%;
-    text-align: center;
-    margin: 0 auto;
-}
+
 
 .equipe{
     background-color: white;
@@ -190,4 +186,12 @@ img.fp{
     h1.bvinda{
         font-size: 60px;
     }
+    .s_a,.n_d,.e_l{
+        min-width: 400px;
+        max-width: 400px;
+        position: relative;
+    }
+    
 }
+
+
