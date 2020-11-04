@@ -18,6 +18,7 @@ header{
     background-color: rgb(255, 255, 255);
     position: relative;
     margin:0 auto;
+    border: solid rgb(219, 182, 88, 0.8);
 }
 
 
@@ -57,8 +58,7 @@ h1.bvinda{
     margin-top: 2%;
     color: rgb(255, 255, 255);
     font-size: 70px;
-    padding: 2%;
-    
+    padding: 2%;    
 }
 h4.span1{
     text-align: center;
@@ -72,6 +72,7 @@ h4.span1{
     background-color:rgb(255, 255, 255);
     margin-top: 0;
     position: relative;
+    border: solid rgb(219, 182, 88, 0.8);
 
 }
 
@@ -124,6 +125,7 @@ h4.info4{
     margin: 0 auto;
     margin-top: 4%;
     opacity: 0.8;
+    border: solid rgb(219, 182, 88, 0.8);
 
 }
 
@@ -140,15 +142,18 @@ h4.info4{
     margin: 2%;
     border-radius: 2%;
     opacity: 0.8;
+    border: solid white;
 }
 
 
 
-.equipe{
+div.equipe{
     background-color: white;
     padding: 3%;
     position: relative;
     opacity: 0.9;
+    border: solid rgb(219, 182, 88, 0.8);
+    
 }
 
 h1.equipe{
@@ -167,6 +172,7 @@ img.fp{
     height: 200px;
     border-radius: 50%;
     background-color: rgb(171, 179, 187);
+    border: solid rgb(219, 182, 88, 0.8);
 }
 
 .p1,.p2,.p3{
