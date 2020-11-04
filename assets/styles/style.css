@@ -8,7 +8,7 @@ html,body{
     height: 100%;
 }
 /* Classes auxiliares */
-.container{
+.box{
     margin: 0 auto;
     width: 100%;
 }
@@ -17,12 +17,12 @@ html,body{
 
 /* Classes auxiliares */
 
-header{
+header.row{
     padding-top: 2%;
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 5%;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     width: 100%;
     position: relative;
     margin: 0 auto;
@@ -34,7 +34,7 @@ header{
 }
 
 nav.menu-desktop{
-    float: right;
+    align-items: flex-end;
 }
 
 nav.menu-desktop li{
@@ -55,21 +55,18 @@ nav.menu-desktop a{
 .img-paralax{
     background-image: url('../imagens/3.jpg');
     width: 100%;
-    height: 90%;
+    height: 100%;
     margin-top: 0;
     position: fixed;
     background-size: 100% 100%;
 }
 
 section.body{
-    width: 100%;
-    position: absolute;
-   
+    position: absolute;   
 }
 
 .meio1{
     width: 100%;
-    height: 80%;
     background-color: rgb(0, 0, 0, 0.2);
     padding: 10%;
 }
@@ -78,8 +75,8 @@ h1.bvinda{
     text-align: center;
     margin-top: 2%;
     color: rgb(255, 255, 255);
-    position: relative;
     font-size: 70px;
+    padding: 2%;
     
 }
 h4.span1{
@@ -151,17 +148,13 @@ h4.info4{
 
 
 .description{
-    display: flex;
     padding: 2%;  
 }
 
 
 .s_a,.n_d,.e_l{
-    margin: 0 auto;
-    text-align: center;
     padding: 2%;
     background-color:rgb(255, 255, 255);
-    margin: 1 1 1 1;
     margin: 2%;
 }
 
@@ -186,40 +179,22 @@ h5.equipe{
     text-align: center;
 }
 
-.perfils{
-    display: flex;
-}
 
 img.fp{
-    width: 150px;
-    border-radius: 90px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
     background-color: rgb(171, 179, 187);
 }
 
 .p1,.p2,.p3{
-    margin: 0 auto;
-    width: 100%;
+    margin: auto;
+    margin: 5% 5% 5% 5% ;
+
 }
 
 .d_c{
-    margin:0 auto;
     margin-top: 5%;
     padding: 5%;
-}
-
-@media only screen and (max-width:1000px){
-    .description{
-        display: inline-block;
-    };
-    .s_a,.n_d,.e_l{
-        margin: 2% auto;
-    }
-    img.foto{
-        width: 50%;
-    }
-    .information{
-        width: 80%;
-        margin: auto;
-    }
 
 }

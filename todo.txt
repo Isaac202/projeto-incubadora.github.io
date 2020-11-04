@@ -1,2 +1,3 @@
 1 - Colocar o codigo de responsividade no documento HTML
 2 - Colocar uma fonte para as letras
+3 - Consertar as dimenções 
