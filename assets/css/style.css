@@ -33,12 +33,8 @@ header{
     padding-right: 8%;
 }
 .img-paralax{
-    background-image: url('../imagens/3.jpg');
-    width: 100%;
-    height: 100%;
     margin-top: 0;
     position: fixed;
-    background-size: 100% 100%;
 }
 
 
