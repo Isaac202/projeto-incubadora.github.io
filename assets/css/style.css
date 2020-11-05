@@ -178,6 +178,7 @@ img.fp{
 .p1,.p2,.p3{
     margin: auto;
     margin: 5% 5% 5% 5% ;
+    border: outset 2px rgb(255, 255, 255);
 
 }
 
