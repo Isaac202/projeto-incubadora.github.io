@@ -189,6 +189,33 @@ img.fp{
 
 }
 
+
+footer{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    position: relative;
+    padding: 5%;
+}
+
+h4.footer,p.footer{
+    text-align: center;
+}
+
+span.footer,a{
+    text-align: center;
+}
+span.footer{
+    margin: auto;
+}
+
+div.desc{
+    width: 100%;
+    margin-bottom: -5%;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
 @media screen and (max-width: 768px){
     h1.bvinda{
         font-size: 60px;

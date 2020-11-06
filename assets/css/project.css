@@ -39,7 +39,7 @@ html,body{
     padding-right: 8%;
 }
 .img-paralax{
-    background-image: url('../imagens/apoie.gif');
+    background-image: url('../imagens/0001-6503568598\ 1.png');
     width: 100%;
     height: 100%;
     margin-top: 0;
@@ -66,15 +66,35 @@ h4.span1{
     color: rgb(255, 255, 255);
 }
 
-
-
 .meio2{
     width: 100%;
     background-color:rgb(255, 255, 255);
     position: relative;
-    border: outset rgb(219, 182, 88, 0.8);
+    height: 60%;
+    opacity: 0.8;
+    margin-bottom: 4%;
 
 }
+
+.meio3{
+    width: 100%;
+    background-color:rgb(255, 255, 255);
+    position: relative;
+    border: outset rgb(219, 182, 88, 0.8);
+    height: 60%;
+    opacity: 0.8;
+
+}
+
+h1.camp{
+    text-align: center;
+    margin-top: 2%;
+    color: rgb(5, 5, 5);
+    font-size: 70px;
+    padding: 4%; 
+    position: relative; 
+}
+
 
 p.desc{
     text-align: center;
@@ -87,56 +107,6 @@ p.desc{
     letter-spacing: 2px;
 }
 
-h1.info{
-    text-align: center;
-    margin-top: 2%;
-    color: rgb(0, 0, 0);
-    font-size: 50px;
-    padding: 2%;
-}
-
-.information{
-    background-color:rgb(219, 182, 88);
-    padding: 2%;
-    opacity: 0.8;
-    border: outset white;
-    margin-top: 5%;
-}
-
-p.info{
-    text-align: center;
-    color: rgb(0, 0, 0);
-    font-size: 18px;
-    
-}
-
-h1.parceiros{
-    text-align: center;
-    margin-top: 2%;
-    color: rgb(0, 0, 0);
-    font-size: 70px;
-    padding: 2%; 
-}
-.box2{
-    background-color: rgb(255, 255, 255);
-    padding: 4%;
-}
-
-.img-parceiros{
-    margin: 2% auto;
-    justify-content: center;
-    align-items: center;
-   
-
-}
-
-img.parceiros{
-    max-height: 200px;
-    max-width: 200px;
-    margin: 2% auto;
-    width: 100%;
-    height: 90%;
-}
 
 
 
