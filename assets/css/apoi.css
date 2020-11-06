@@ -8,9 +8,11 @@ html,body{
     height: 100%;
 }
 /* Classes auxiliares */
-.box{
+.box2{
     width: 100%;
     position: relative;
+    opacity: 0.8;
+    background-color: rgb(255, 255, 255);
 }
 
 header{
@@ -121,7 +123,6 @@ h1.parceiros{
 
 .img-parceiros{
     margin: 2% auto;
-    border: outset 2px rgb(255, 255, 255);
     justify-content: center;
     align-items: center;
     height: 200px;
@@ -130,9 +131,12 @@ h1.parceiros{
 }
 
 img.parceiros{
-    height: 200px;
-    width: 200px;
+    max-height: 200px;
+    max-width: 200px;
     margin: 0 auto;
+    width: 100%;
+    height: 90%;
+
 }
 
 
@@ -140,6 +144,7 @@ img.parceiros{
 footer{
     background-color: rgb(255, 255, 255);
     width: 100%;
+    position: relative;
 }
 
 h4.footer,p.footer{
@@ -153,7 +158,20 @@ span.footer{
     margin: auto;
 }
 
-.desc{
+div.desc{
     width: 100%;
-    opacity: 0.8;
+    padding: 9%;
+    align-items: center;
+}
+
+*img{
+    width: 90%;
+    height: 90%;
+}
+
+@media screen and (max-width: 768px){
+    h1.parceiros{
+        font-size: 60px;
+    }
+    
 }
