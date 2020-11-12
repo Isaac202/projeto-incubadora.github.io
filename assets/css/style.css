@@ -25,6 +25,7 @@ header{
 /* Classes auxiliares */
 .logo{
     align-items: flex-start;
+    width: 400px;
 }
 .menu{
     align-items: flex-end;
