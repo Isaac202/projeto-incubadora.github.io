@@ -1,0 +1,71 @@
+{% extends  "site/base.html" %}
+{% load static %}
+
+
+
+{% block content %}
+    <div class="img-paralax">
+    </div> <!--Imagen paralax-->
+    <div class="container-fluid ">
+        <header class="row">
+                <div class="col logo">
+                    <img width="100px" class="img-fluid" src="{% static 'assets/icones/logo.png' %}" alt="">
+                </div><!--logo-->
+            <div class="row-fluid cent">
+                <nav class="col-lg col-md navbar navbar-expand-lg navbar-light  menu row" >
+                   
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#mobile">
+                        <span class="navbar-toggler-icon icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse col menu" id="mobile">
+                        <div class="col-md col-lg navbar-nav mobile navmenu">
+                            
+                                   <a style="color: black;" class="nav-item nav-link" href="{% url 'home' %}">Inicio</a>
+                    
+                                    <a style="color: black;"  class="nav-item nav-link"  href="{% url 'apoie' %}">Apoie</a>
+                              
+                                    <!-- <a style="color: black;"  class="nav-item nav-link" href="./project.html">Projetos</a>
+                            
+                                    <a style="color: black;"  class="nav-item nav-link" href="./contato.html">Contato</a>
+                              
+                                    <a style="color: black;"  class="nav-item nav-link" href="">Sobre</a> -->
+                             
+                                    <a style="color: black;"  class="nav-item nav-link" target="blank" href="https://www.instagram.com/cnsbrasil/"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>   
+                </nav> <!--menu-desktop-->
+            </div>
+        </header>
+    </div><!--container-->
+    <div class="container-fluid box ">
+        <div class="meio1">
+            <h1 class="bvinda">Pode Ajudar?</h1>
+            <br>
+            <h4 class="span1">Contribua com a Incubadora Social de Salvador.</h4>
+        </div><!--meio1-->
+        <div class="meio2">
+            <p class="desc">Nossa visão de futuro é criar coletivamente novas possibilidades de prosperidade e
+
+                apostar na capacidade  ancestral da população negra se reinventar.</p>
+        </div><!--meio2-->
+    <div class="col-md information">
+        <div class="informe2">
+            <h1 style="background-color:#DBB658;" class="info">Faça doação a partir de qualquer valor!</h1><!--info-->
+            <p class="info">CNPJ 11.997.858/0001-99</p> <!--info-->
+            <p class="info">ISELACC - Instituição Solidária de Esporte e Lazer e Ação Comunitária de Ceilândia
+                *
+            </p> <!--info-->
+            <p class="info">Banco Asaas I.P S.A (461) Agência 0001-9 Conta corrente 1777819-2
+            </p> <!--info-->
+            <p class="info">Doe também por PIX 11.997.858/0001-99 CNPJ
+            </p> <!--info-->
+            
+
+            <p class="info">Para depósitos por boleto acima de R$20 entre em contato através do chat.</p> <!--info-->
+            <p class="info">*As doações são realizadas em uma conta de uso exclusivo da CNS - BRASIL registrada em nome da ISELACC. (contato Edvard Pereira dos Santos 61 99858-6495)
+            </p> <!--info-->
+        </div><!--informe2-->
+    </div>  
+
+    
+{% endblock %}

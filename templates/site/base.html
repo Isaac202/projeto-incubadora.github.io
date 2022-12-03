@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
+    <title>CNS BRASIL</title>
+    <link rel="shortcut icon" href="{% static 'assets/icones/cnsbrasil.png' %}" type="image/x-icon">
+    <link rel="stylesheet" href="{% static './assets/css/style.css' %}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css' %}">
+</head>
+<body>
+
+
+{% block content %}{% endblock %}
+
+<footer class="footer">
+    <div class="footer">
+        <h4 class="footer">CNS BRASIL</h4>
+        <P class="footer">Endereço: BRASILIA-DF</P>
+        <p class="footer">Contato: contato@cnsbrasil.com. Tel: (61) 99858-6495</p>
+        <p class="footer">Seguir: <a style="color: black;"  class="nav-item nav-link" target="blank" href="https://www.instagram.com/cnsbrasil/"><i class="fab fa-instagram"></i></a></p>
+    </div>
+    <div class="row aling-intems-center desc">
+        <span class="footer">2022 por CNS BRASIL. Criado por Isaac De Oliveira dos Santos <a style="color: black; display: inline;"  class="nav-item nav-link" target="blank" href="https://github.com/Isaac202"><i class="fab fa-github"></i></a>
+            <a style="color: black; display: inline;"  class="nav-item nav-link" target="blank" href="https://www.linkedin.com/in/isaac-de-oliveira-dos-santos-9377a1185/"><i class="fab fa-linkedin"></i></a></span>
+    </div>
+</footer>
+<script src="{% static 'assets/script/jquery.js' %}"></script>
+<script src="{% static 'assets/script/bootstrap.bundle.min.js' %}"></script>
+</body>
+</html>

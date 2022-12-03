@@ -1,0 +1,96 @@
+{% extends  "site/base.html" %}
+{% load static %}
+
+
+
+{% block content %}
+
+<div class="img-paralax">
+    </div> <!--Imagen paralax-->
+    <div class="container-fluid ">
+        <header class="row">
+                <div class="col logo">
+                   <img width="100px" class="img-fluid" src="{% static 'assets/icones/logo.png' %}" alt="">
+                </div><!--logo-->
+            <div class="row-fluid cent">
+                <nav class="col-lg col-md navbar navbar-expand-lg navbar-light  menu row" >
+                   
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#mobile">
+                        <span class="navbar-toggler-icon icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse col menu" id="mobile">
+                        <div class="col-md col-lg navbar-nav mobile navmenu">
+                            
+                            <a style="color: black;" class="nav-item nav-link" href="{% url 'home' %}">Inicio</a>
+             
+                             <a style="color: black;"  class="nav-item nav-link"  href="{% url 'apoie' %}">Apoie</a>
+                       
+                             <!-- <a style="color: black;"  class="nav-item nav-link" href="./project.html">Projetos</a>
+                     
+                             <a style="color: black;"  class="nav-item nav-link" href="./contato.html">Contato</a>
+                       
+                             <a style="color: black;"  class="nav-item nav-link" href="">Sobre</a> -->
+                      
+                             <a style="color: black;"  class="nav-item nav-link" target="blank" href="https://www.instagram.com/cnsbrasil/"><i class="fab fa-instagram"></i></a>
+                 </div>
+                    </div>   
+                </nav> <!--menu-desktop-->
+            </div>
+        </header>
+    </div><!--container-->     
+    <div class="container-fluid box ">
+            <div class="meio1">
+                <h1 class="bvinda">Bem-vindo a CNS-BRASIL</h1>
+                <br>
+                <h4 class="span1">Coletivo negros e negras de sucesso!</h4>
+            </div><!--meio1-->
+            <div class="meio2">
+                <p class="desc">Este Coletivo surge do sentimento de DEVER, face ao grito dos esquecidos da métrica do sistema em movimento cujas bases foram edificadas de modo falho e negligente mas suficiente de quantificar numeros alarmantes de desigualdades no Brasil. O CNS BRASIL propõe abertura de diálogo com as estruturas da sociedade brasileira, e assim convergir rumos ao novo tempo de consiencia e ideal humano de oportunidade e direitos. “SIM, SOMO POSSÍVEIS!”</p>
+            </div><!--meio2-->
+        <div class="col-md information">
+            <div class="col-md col-lg informe">
+                <h1 class="info">Sua vós, sua vida!</h1>
+                <h4 class="info4">Secesso aqui, pode ser simplismente um modo de sobrevivência; mas com dignidade.</h4>
+            </div> <!--informe-->
+            <div class="row justify-content-center">
+                <div class="col-lg col-md s_a">
+                    <img class="foto img-fluid" src="{% static 'assets/icones/vendas.png' %}" alt="">
+                    <p style="color: #FFFFFF;" class="fdesc">Chegou a sua hora! 
+                        Vender é uma das ferramentas mais democráticas à disposição de um indivíduo ou grupo. É por essa razão que enfatizamos aqui, esse degrau que será capaz de mudar o rumo de sua vida, tornando-o independente em passos largos na passarela do sucesso.
+                        Vem com a gente...
+                        </p>
+                </div><!--segurança alimentar-->
+                <div class="col-lg col-md n_d">
+                    <img class="foto img-fluid" src="{% static 'assets/icones/cns.png' %}" alt="">
+                    <p style="color: #FFFFFF;"class="fdesc">O lendário colar de espinhos é nada menos que uma pintura de Frida Kahlo datada de 1940, em que a ele atribui um gênero terapêutico, porém mais próximo da expressão de dores e angústias; assim como é na pele preta, cujo milagre da sua força nos transforma em super heroinas e heróis “Panteras Negras e Negros” desse Brasil de Deus.
+                    </p>
+                </div><!--negocios digitais-->
+                <div class="col-lg col-md e_l">
+                    <img class="foto img-fluid" src="{% static 'assets/icones/tecnologia.png' %}" alt="">
+                    <p class="fdesc">Observando as dificuldades que os pequenos empreendedores têm para operar seus negócios nas redes sociais, a Azeviche se propõe a auxiliá-los na digitalização de pequenos empreendimentos, usando a tecnologia para melhorar a eficiência no alcance de mercado durante a pandemia</p>
+                </div><!--economia local-->
+            </div><!--description-->
+
+            <div class="row justify-content-center">
+                <div class="col-lg col-md s_e">
+                    <img class="foto img-fluid" src="{% static 'assets/icones/empreendedorismo.png' %}" alt="">
+                    <p style="color: #FFFFFF;" class="fdesc">Chegou a sua hora! 
+                        Vender é uma das ferramentas mais democráticas à disposição de um indivíduo ou grupo. É por essa razão que enfatizamos aqui, esse degrau que será capaz de mudar o rumo de sua vida, tornando-o independente em passos largos na passarela do sucesso.
+                        Vem com a gente...
+                        </p>
+                </div><!--segurança alimentar-->
+                <div class="col-lg col-md e_i">
+                    <img class="foto img-fluid" src="{% static 'assets/icones/investimentos.png' %}" alt="">
+                    <p style="color: #FFFFFF;"class="fdesc">Até hoje você pensava que investimentos Financeiros é para quem tem R $1.000.000,00, certo? ERRADO. O que você não sabe, o CNS BRASIL vai te mostrar. Tem R $100,00 aí? Veja como é fácil começar agora mesmo, e assista a sua vida mudar de rumos. A nossa REDE de transformação social, também é uma locomotiva para impulsionar mudanças de vidas por meio da Educação Financeira. Siga-nos…                </p>
+                </div><!--negocios digitais-->
+                <div class="col-lg col-md e_e">
+                    <img class="foto img-fluid" src="{% static 'assets/icones/esporte.png' %}" alt="">
+                    <p style="color:#FFFFFF;" class="fdesc">A prática esportiva é grande força motriz na formação do indivíduo em seres sociáveis capaz de contribuir para os avanços e desenvolvimento dos sujeitos, famílias e comunidades. Nesse sentido, dentre as grandes admirações a que o ser humano se presta a reverenciar, o esporte está no topo. É por isso que convidamos você a embarcar nas experiências CNS BRASIL esportes.
+                    </p>
+                </div><!--economia local-->
+            </div><!--description-->
+        </div><!--information-->
+    </div>
+        
+    </div>
+    {% endblock %}
